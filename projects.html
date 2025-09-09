@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <title>Projects - Nick's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .images {
+            display: flex;
+            gap: 10px; /* 圖片之間的間距 */
+        }
+        .images img {
+            width: 45%; /* 自行調整比例 */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -27,26 +37,51 @@
         </section>
 
         
-        <section id="flowshop">
+        <section id="imagelab">
             <h2>Image Mini Lab</h2>
             <p>Image Mini Lab is a WPF desktop application built with the MVVM pattern. It implements common image processing algorithms from scratch and provides a user-friendly GUI to experiment with them.</p>
-            <a href="https://github.com/tigercat0828/HeuristicAlgorithm" target="_blank">🔗 View on GitHub</a>
+            <a href="https://github.com/tigercat0828/ImageMiniLab" target="_blank">🔗 View on GitHub</a>
         </section>
 
         <section id="flowshop">
             <h2>Flowshop Scheduling</h2>
             <p>Solves the Flowshop Scheduling Problem using heuristic algorithms such as Iterative Improvement (II), Simulated Annealing (SA), and others.</p>
             <a href="https://github.com/tigercat0828/HeuristicAlgorithm" target="_blank">🔗 View on GitHub</a>
+            <div class="images" style="display:flex; gap:10px;">
+                <img src="images/heuristic.png" style="width:45%;" />
+                <img src="images/makespan.png" style="width:45%;" />
+            </div>
         </section>
 
-        <section id="flowshop">
+        <section id="Mirco-Compiler">
             <h2>Mirco-Compiler</h2>
             <p>This project is a Micro Compiler implemented in C using Lex and Yacc (Flex/Bison).
 It compiles a simplified language called Micro/Ex, supporting variable declarations, assignments, for-loops, nested loops, and if-then-else statements, with undeclared variable detection.</p>
             <a href="https://github.com/tigercat0828/Mirco-Compiler" target="_blank">🔗 View on GitHub</a>
         </section>
 
+        <section id="leetcode">
+            <h2>Leetcode</h2>
+            <p>This repository stores my C# implementations of LeetCode problems.
+It serves as a personal record of practice in algorithms and data structures.</p>
+            <a href="https://github.com/tigercat0828/" target="_blank">🔗 View on GitHub</a>
+            <br />
+            <br />
+            <img src="images/leetcode.png"  />
+        </section>
+
+        <section id="retree">
+            <h2>Retree</h2>
+            Retree is an editor for tree reconstruction and visualization. It can automatically or manually trim redundant branches and leaves, customize leaf models and trunk textures, and build meshes with a flexible constructor. By taking a point cloud as input and leveraging the powerful AdTree reconstruction algorithm, generates accurate tree skeletons for further editing and rendering.
+            <br />
+            <br />
+            <img src="images/retree.png" width="300"/>
+            <br />
+            <a href="https://github.com/tigercat0828/Retree" target="_blank">🔗 View on GitHub</a>
+        </section>
     </main>
   </div>
 </body>
 </html>
+
+
